@@ -14,14 +14,15 @@ public class GrandFa {
 	
 	
 	public GrandFa() {
-		System.out.println("할아버지 생성자");
+		System.out.println("김양성");
 	} 
 
 
 	//각각의 객체에 접근 제어자를 사용하여 정보은닉을 함. 이런 개객체들이 모여있는  클래스를 '캡슐화'라고 함.
 	
 	public GrandFa(int nai) {
-		super();
+		//this(); //위에 기본생성자에 갔다가 다시 돌아오는 건ㄷ가.. 아 모르게따
+		System.out.println("경수");
 		this.nai = nai;
 	}//이것을 만듦으로 기본생성자를 만들어 주지 않아서 페밀리클래스에서 에러가 뜬다.
 

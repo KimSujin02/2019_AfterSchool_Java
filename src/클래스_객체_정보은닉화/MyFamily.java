@@ -10,8 +10,12 @@ public class MyFamily {
 //		System.out.println(gr.getNai());
 		
 		
-//		GrandFa gr = new GrandFa(50);
-		Father fa = new Father(11);
+		//GrandFa gr = new GrandFa(10);
+		Father fa = new Father(51);
+		
+		System.out.println(fa.getNai());
+		
+		fa.show();
 		
 		
 		//메모리에 생성자를 호출하며 클래스 객체를 만든다.
