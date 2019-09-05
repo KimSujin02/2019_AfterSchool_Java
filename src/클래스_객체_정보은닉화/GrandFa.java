@@ -12,8 +12,28 @@ public class GrandFa {
 	public String gabo = "삼강청자";
 	protected String gahoon = "모든 일에 최선을"; //protected를 씀으로, 우리 가족만 쓸 수 있다. 이말임
 	
+	
+	public GrandFa() {
+		System.out.println("할아버지 생성자");
+	} 
+
+
 	//각각의 객체에 접근 제어자를 사용하여 정보은닉을 함. 이런 개객체들이 모여있는  클래스를 '캡슐화'라고 함.
 	
+	public GrandFa(int nai) {
+		super();
+		this.nai = nai;
+	}//이것을 만듦으로 기본생성자를 만들어 주지 않아서 페밀리클래스에서 에러가 뜬다.
+
+
+	public String say() {
+		return "할아버지 말씀 : 어려울 수록 즐겨라";
+	}
+	
+	public String eat() {
+		return "밥맛있게";
+	}
+
 	public int getNai() { //나이는 못바꾸고 알려주기만 할 수 있어진다.
 		return nai;
 	}
