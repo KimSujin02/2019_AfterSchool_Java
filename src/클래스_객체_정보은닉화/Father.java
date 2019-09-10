@@ -14,7 +14,7 @@ public class Father extends GrandFa {
 	
 	public Father(int nai) {
 		this();
-		this.nai = nai;
+		this.nai = nai; //전역변수에 넣는 과정
 	}
 
 	public int getNai() {

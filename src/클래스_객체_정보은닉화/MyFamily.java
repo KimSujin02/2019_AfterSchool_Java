@@ -13,9 +13,35 @@ public class MyFamily {
 		//GrandFa gr = new GrandFa(10);
 		Father fa = new Father(51);
 		
+		fa.show();
+		
+		Me me = new Me();
+		
+		GrandFa gr = new GrandFa();
+		
+		System.out.println("===================================================");
+		
+		System.out.println(gr.gahoon);
+		System.out.println(fa.gahoon);
+		System.out.println(gr.say());
+		System.out.println(fa.say());
+		System.out.println(gr.eat());
+		System.out.println(fa.eat());
+		
+		GrandFa gf = new GrandFa(83);
+		
+		System.out.println(gf.getNai());
+		
+		
+		me.bike();
+		
+		System.out.println("====================상속시작===========================");
+		
 		System.out.println(fa.getNai());
 		
-		fa.show();
+		System.out.println(gr.getNai());
+		
+		System.out.println();
 		
 		
 		//메모리에 생성자를 호출하며 클래스 객체를 만든다.
