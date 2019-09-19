@@ -13,13 +13,15 @@ public class AnimalMain {
 //		System.out.println();
 //		System.out.println("======별도의 클래스 사용======");
 //		System.out.println();
+		
+		Ani_Dog_Wolf dog = new Ani_Dog_Wolf();
 //		
 		AnimalFind af = new AnimalFind();
 		af.find(cow);
-//		af.find(cow);
-//		af.find(lion);
+		af.find(lion);
+		af.find(dog);
 //		
-//		Ani_Dog_Wolf dw = new Ani_Dog_Wolf();
+
 //		
 //		dw.special();
 		

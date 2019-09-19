@@ -32,7 +32,7 @@ public class AnimalFind {
 			System.out.println();
 		}
 		
-		else if(ani instanceof Ani_Cow) {
+		else if(ani instanceof Ani_Lion) {
 			System.out.println("사나운 이빨을 가진");
 			System.out.println(ani.name() + "는 " + ani.action() + "에 " + ani.eat() + "을 먹음");
 			System.out.println();
