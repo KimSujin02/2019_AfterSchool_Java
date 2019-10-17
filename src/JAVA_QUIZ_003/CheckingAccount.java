@@ -1,4 +1,4 @@
-package JAVA_QUIZ_002;
+package JAVA_QUIZ_003;
 
 public class CheckingAccount extends Account {
 	String cardNo;
